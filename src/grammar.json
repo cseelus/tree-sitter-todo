@@ -24,7 +24,7 @@
           },
           {
             "type": "SYMBOL",
-            "name": "comment"
+            "name": "note"
           },
           {
             "type": "SYMBOL",
@@ -275,7 +275,7 @@
       "type": "PATTERN",
       "value": "[^\\n\\r@]+"
     },
-    "comment": {
+    "note": {
       "type": "SEQ",
       "members": [
         {
@@ -292,7 +292,7 @@
         },
         {
           "type": "SYMBOL",
-          "name": "comment_text"
+          "name": "note_text"
         },
         {
           "type": "SYMBOL",
@@ -300,7 +300,7 @@
         }
       ]
     },
-    "comment_text": {
+    "note_text": {
       "type": "PATTERN",
       "value": "[^☐✔✘\\n\\r][^\\n\\r]*"
     },
